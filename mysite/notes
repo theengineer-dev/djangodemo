@@ -3,4 +3,10 @@ pw: 123456789
 
 
 index view: -> http response without template. 
-
+simpletemplate --> passing variable from "view" to template.
+demomodel:
+1. Retrieve all.
+2. Filter.
+3. admin site .
+4. shell. 
+5. template inheritance. 

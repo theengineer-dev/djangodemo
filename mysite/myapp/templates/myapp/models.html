@@ -1,0 +1,14 @@
+{% extends "myapp/simplet.html" %}
+{% block content %}
+    <h5>
+        Loop employee names:
+    </h5>
+    {% for e in allemployee %}
+        <li>{{e.name}}</li>
+    {% endfor %}
+
+    {% for e in allemployee %}
+        <li>{{e.name}}</li>
+    {% endfor %}
+
+{% endblock %}
