@@ -1,0 +1,6 @@
+admin id: superuser
+pw: 123456789
+
+
+index view: -> http response without template. 
+
