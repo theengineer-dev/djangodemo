@@ -7,8 +7,18 @@
         <li>{{e.name}}</li>
     {% endfor %}
 
-    {% for e in allemployee %}
-        <li>{{e.name}}</li>
+    <h5>
+        Loop by color :
+    </h5>
+    {% for e in colors %}
+        <li>{{e.e.name}}</li>
+    {% endfor %}
+
+    <h5>
+        Loop by employee :
+    </h5>
+    {% for e in coloremployee %}
+        <li>{{e.color}} {{e.color2}}</li>
     {% endfor %}
 
 {% endblock %}

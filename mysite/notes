@@ -10,3 +10,7 @@ demomodel:
 3. admin site .
 4. shell. 
 5. template inheritance. 
+
+demoajax -> 
+1. asynchronouse requests.
+2. pass data with json.  
